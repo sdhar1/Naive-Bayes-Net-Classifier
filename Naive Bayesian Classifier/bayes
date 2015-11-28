@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ $3 == "n" ]; then
+	python naivebayes.py $1 $2
+else
+	python tan.py $1 $2
+fi
